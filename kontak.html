@@ -1,30 +1,66 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Kontak</title>
+  <meta charset="UTF-8">
+  <title>Kontak Toko Buku Nabila</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Hubungi Saya</h1>
+  <!-- HEADER BIRU -->
+  <header>
+    <h1>Toko Buku Nabila</h1>
+    <p>Temukan buku favoritmu di sini!</p>
+  </header>
 
-<p>Jika ingin menghubungi saya, silakan isi form berikut:</p>
+  <!-- NAVBAR -->
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="produk.html">Produk</a>
+    <a href="bedah-buku.html">Bedah Buku</a>
+    <a href="testimoni.html">Testimoni</a>
+    <a href="tampil-testimoni.html">Testimoni Pembeli</a>
+    <a href="kontak.html">Kontak</a>
+    <a href="event.html">Event</a>
+  </nav>
 
-<form>
-    <label>Nama:</label><br>
-    <input type="text" name="nama"><br><br>
+  <!-- FORM KONTAK -->
+  <div class="formulir">
+    <h2>Kirim Pesan</h2>
+    <form id="formTestimoni">
+      <label>Nama:</label>
+      <input type="text" id="nama" placeholder="Nama lengkap" required>
 
-    <label>Email:</label><br>
-    <input type="email" name="email"><br><br>
+      <label>Email:</label>
+      <input type="email" id="email" placeholder="Email kamu" required>
 
-    <label>Pesan:</label><br>
-    <textarea name="pesan"></textarea><br><br>
+      <label>Pesan:</label>
+      <textarea id="pesan" placeholder="Tulis pesanmu di sini" required></textarea>
 
-    <button type="submit">Kirim</button>
-</form>
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
 
-<h2>Kontak Saya</h2>
-<p>Email:nabila200336@gmail.com</a></p>
-<p>Instagram:ila@girl</a></p>
-</body>
-</html>
+  <!-- ALAMAT TOKO -->
+  <div class="alamat-toko">
+    <h2>Alamat Toko Buku</h2>
+    <p>Jl. Merdeka No. 123, Kota Contoh, Provinsi ABC, Indonesia</p>
+    <p>Email: <a href="mailto:nabila200336@gmail.com">nabila200336@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/ila.girl">@ila.girl</a></p>
+  </div>
+
+  <!-- PETA GOOGLE -->
+   <div class="alamat-toko">
+    <h2>Alamat Toko Buku</h2>
+    <p>Gramedia Matraman, Jl. Matraman Raya No.45, RT.14/RW.5, Matraman, Jakarta Timur, DKI Jakarta 13140</p>
+    <p>Email: <a href="mailto:info@gramedia.com">info@gramedia.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/gramedia">@gramedia</a></p>
+  </div>
+
+  <!-- PETA GOOGLE -->
+  <div class="peta-toko" style="max-width:600px; margin:auto; margin-top:20px;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.043593007166!2d106.860693!3d-6.200684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3b3070f8887%3A0xf6fa223ad7b5a9c3!2sGramedia%20Matraman!5e0!3m2!1sid!2sid!4v1707432361234!5m2!1sid!2sid"
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
