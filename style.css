@@ -1,18 +1,20 @@
-
+/* ===============================
+   BODY & TEKS GLOBAL
+   =============================== */
 body {
-  background-color: #55a9f7; 
+  background-color: #55a9f7; /* warna biru utama */
   font-family: Arial, Helvetica, sans-serif;
-  color: #333; 
+  color: #333;
   margin: 20px;
 }
 
 h1 {
-  color: rgb(28, 54, 54);
+  color: white; /* header biru, teks putih */
   text-align: center;
 }
 
 h2 {
-  color: rgb(19, 57, 59);
+  color: #1a3e5c;
   text-align: left;
 }
 
@@ -28,7 +30,7 @@ p {
 header {
   text-align: center;
   padding: 20px 0;
-  background-color: #55a9f7;
+  background-color: #55a9f7; /* biru */
   color: white;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -48,7 +50,7 @@ header p {
    NAVBAR
    =============================== */
 nav {
-  background-color: #4CAF50;
+  background-color: #3498db; /* biru navbar */
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -65,6 +67,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav a.aktif {
+  background-color: #1f5f8b; /* menandai halaman aktif */
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
 /* ===============================
    PRODUK
    =============================== */
@@ -72,14 +80,14 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .produk {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 15px;
-  border-radius: 10px; 
+  border-radius: 10px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -91,7 +99,7 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-.produk h2 { 
+.produk h2 {
   font-size: 20px;
   color: #2c3e50;
 }
@@ -125,15 +133,15 @@ nav a:hover {
 .btn-kembali {
   display: inline-block;
   margin-top: 30px;
-  padding: 10px 16px; 
-  background-color: #0066cc;
+  padding: 10px 16px;
+  background-color: #2980b9;
   color: white;
   text-decoration: none;
   border-radius: 4px;
 }
 
 .btn-kembali:hover {
-  background-color: #004d99;
+  background-color: #1f5f8b;
 }
 
 /* ===============================
@@ -143,7 +151,7 @@ nav a:hover {
   max-width: 600px;
   margin: auto;
   padding: 20px;
-  background-color: #fafafa;
+  background-color: #e0f0ff; /* biru muda */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -175,30 +183,38 @@ form button {
 }
 
 form button:hover {
-  background-color: #2980b9; 
+  background-color: #1f5f8b;
 }
 
 /* ===============================
    EVENT
    =============================== */
+.daftar-event {
+  margin-top: 20px;
+}
+
 .event-item {
-  background-color: #fff;
+  background-color: #e0f0ff;
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.event-item img {
-  max-width: 100%;
-  border-radius: 8px;
+.event-item h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.event-item p {
+  margin: 5px 0 0 0;
 }
 
 /* ===============================
    TESTIMONI
    =============================== */
 #daftarTestimoni div {
-  background-color: #fff;
+  background-color: #e0f0ff;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 6px;
@@ -209,7 +225,7 @@ form button:hover {
    ALAMAT TOKO
    =============================== */
 .alamat-toko {
-  background-color: #fff;
+  background-color: #e0f0ff;
   padding: 20px;
   border-radius: 10px;
   max-width: 600px;
@@ -243,13 +259,4 @@ form button:hover {
 .peta-toko iframe {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-nav a.aktif {
-  background-color: #2980b9; /* warna biru gelap */
-  padding: 5px 10px;
-  border-radius: 4px;
-}
-
-nav a.aktif:hover {
-  background-color: #1f5f8b; /* hover lebih gelap */
 }
