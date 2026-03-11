@@ -129,7 +129,12 @@ main {
 .btn-kembali:hover {
   background-color: #004d99;
 }
-
+blockquote {
+  border-left: 4px solid gold; /* garis di kiri */
+  padding-left: 15px;          /* jarak teks dari garis */
+  margin: 20px 0;
+  font-style: italic;
+}
 /* ===============================
    FORMULIR / KONTAK / TESTIMONI
 =============================== */
@@ -245,4 +250,5 @@ footer {
   margin-top: 20px;
   border-top: 2px solid #8cccf1;
 }
+
 
