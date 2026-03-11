@@ -116,6 +116,19 @@ main {
   color: #1a3e5c;
   line-height: 1.5;
 }
+.btn-kembali {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 16px; 
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-kembali:hover {
+  background-color: #004d99;
+}
 
 /* ===============================
    FORMULIR / KONTAK / TESTIMONI
@@ -232,3 +245,4 @@ footer {
   margin-top: 20px;
   border-top: 2px solid #8cccf1;
 }
+
