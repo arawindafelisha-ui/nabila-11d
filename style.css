@@ -57,6 +57,7 @@ nav {
   padding: 10px 0;
   border-radius: 5px;
   margin-bottom: 20px;
+  width: fit-content;
 }
 
 nav a {
@@ -266,6 +267,7 @@ footer {
   margin-top: 20px;
   border-top: 2px solid #8cccf1;
 }
+
 
 
 
