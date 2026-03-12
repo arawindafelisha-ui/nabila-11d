@@ -17,17 +17,32 @@ a:hover {
   color: #0d2b48;
 }
 
+/* ===============================
+   HEADER
+=============================== */
 header {
-  text-align: center;
-  padding: 20px;
-  /* Background gambar yang memenuhi header */
-  background-image: url('header.jpg');
+  position: relative;
+  height: 300px; /* tinggi header */
+  background-image: url('header elemen(1).jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
+  text-align: center;
   border-bottom: 2px solid #8cccf1;
+  padding: 0; /* hapus padding lama */
 }
+
+header .header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+/* ===============================
    NAVBAR
 =============================== */
 nav {
@@ -121,10 +136,11 @@ main {
 }
 blockquote {
   border-left: 4px solid gold; /* garis di kiri */
-  padding-left: 15px;          /* jarak teks dari garis */
+  padding-left: 15px;
   margin: 20px 0;
   font-style: italic;
 }
+
 /* ===============================
    FORMULIR / KONTAK / TESTIMONI
 =============================== */
